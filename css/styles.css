@@ -1,0 +1,245 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* акцент #2196F3 */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #2F303A ; #F5F4FA ; #FFFFFF */
+:root {
+    -- primery-text-color: #757575;
+    -- title-text-color: #212121;
+    -- accent-color: #2196F3;
+    -- primery-white-color: #ffffff;
+    -- secondary-bcg-color: #2F303A;
+}
+body {
+    background-color: var(-- primery-white-color);
+    color: var(-- primery-text-color);
+    font-family: Roboto, sans-serif;
+}
+ul {
+    list-style: none;
+}
+
+/* logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.logo :hover, :focus {
+    color: var(--accent-color);
+}
+
+/* Navigation */
+
+.web {
+    color: #2196F3;
+}
+.studio {
+    color: black;
+}
+.site-nav-list :hover, :focus{
+text-decoration: none;
+}
+
+.link {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14 px;
+    line-height: 1.1;
+    letter-spacing: 0.02 em;
+    
+    color: #2196F3;
+}
+.link-studio {
+   font-family: Roboto;
+    font-weight: 500;
+    font-size: 14 px;
+    line-height: 1.1;
+    letter-spacing: 0.02 em;
+    
+    color: #212121; 
+}
+
+.link-portfolio, .link-contacts {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14 px;
+    line-height: 1.1;
+    letter-spacing: 0.02 em;
+    
+    color: #212121;
+}
+.link-portfolio-link {
+ font-family: Roboto;
+    font-weight: 500;
+    font-size: 14 px;
+    line-height: 1.1;
+    letter-spacing: 0.02 em;
+   
+    color: #2196F3;   
+}
+.e-mail-portfolio {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14 px;
+line-height: 1.1;
+letter-spacing: 0.02 em;
+
+color: #757575;
+} 
+
+/* Contacts */
+
+
+.e-mail-main {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14 px;
+line-height: 1.1;
+letter-spacing: 0.02 em;
+
+color: #2196F3;
+}
+.phone {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 14 px;
+line-height: 1.1;
+letter-spacing: 0.02 em;
+
+color: #757575;
+}
+ /* Hero */
+ .hero {background-color: #2F303A;}
+
+ .hero-tittle-decision {
+ Font-family: Roboto;
+ font-size: 44 px;
+ line-height: 1.4;
+ text-align: center;
+ letter-spacing: 6%;
+ text-transform: uppercase;
+ color: #ffffff;
+ }
+/* buttons */
+ .button, .button-portfolio {
+      font-family: Roboto;
+font-style: bold;
+Font-size: 16 px;
+line-height: 1.8;
+align: center;
+Vertical-align: center;
+letter-spacing: 6%;
+ }
+ .button {
+     background-color: #2196F3;
+     color: #ffffff;
+ }
+ .button-portfolio {
+    background-color:  #F5F4FA;
+    color: #212121;
+ }
+
+ .prioritets {
+     color: #212121;
+     font-family: Roboto;
+font-style: Bold;
+font-size: 14 px;
+line-height: 1.1;
+line-height: 100 %;
+align: left;
+letter-spacing: 3 %;
+ }
+ .tech-tittle {
+     font-family: Roboto;
+font-style: Regular;
+font-size: 14 px;
+line-height: 1.7;
+line-height: 146%;
+align: left;
+letter-spacing: 3%;
+color: #757575;
+ }
+ .work {
+     font-family: Roboto;
+font-style: Bold;
+font-size: 36px;
+line-height: 1.1;
+line-height: 100%;
+text-align: Center;
+ color: #212121}
+ .team {
+     background-color: #F5F4FA;
+ }
+
+ .team-tittle {
+Font-family: Roboto;
+font-style: bold;
+font-size: 36 px;
+line-height: 1.1;
+line-height: 100%;
+text-align: Center;
+letter-spacing: 3%;
+ color: #212121}
+ 
+ .name {
+font-family: Roboto;
+font-style: Medium;
+font-size: 16 px;
+line-height: 1.2;
+line-height: 100%;
+align: Center;
+color: #212121;
+ }
+ .proffession {
+font-family: Roboto;
+font-style: medium;
+font-size: 16 px;
+line-height: 1.2;
+line-height: 100%;
+align: center;
+letter-spacing: 3%;
+color: #212121;
+ }
+
+ /* Footer */
+ .contacts {background-color: #2F303A;}
+ .contacts-tittle, .contacts-tittle-link {
+font-family: Roboto;
+font-style: Regular;
+font-size: 14 px;
+line-height: 1.7;
+line-height: 146%;
+align: left;
+letter-spacing: 3%;
+color: #FFFFFF;
+}
+.contacts-tittle-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+.projects-tittle {
+font-family: Roboto;
+font-style: Bold;
+font-size: 18 px;
+line-height: 2;
+line-height 171%;
+letter-spacing: 6%;
+color: #212121;
+}
+.works {
+font-family: Roboto;
+font-style: Regular;
+font-size: 16px;
+line-height: 1.9;
+line-height: 160%;
+align: Left;
+letter-spacing: 3%;
+color: #757575;
+}
