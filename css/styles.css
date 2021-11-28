@@ -4,19 +4,21 @@
 /* основной цвет фона #E5E5E5 */
 /* вторичный цвет фона #2F303A ; #F5F4FA ; #FFFFFF */
 :root {
-    -- primery-text-color: #757575;
-    -- title-text-color: #212121;
-    -- accent-color: #2196F3;
-    -- primery-white-color: #ffffff;
-    -- secondary-bcg-color: #2F303A;
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primery-white-color: #ffffff;
+    --secondary-bcg-color: #2F303A;
 }
 body {
-    background-color: var(-- primery-white-color);
-    color: var(-- primery-text-color);
+    background-color: var(--primery-white-color);
+    color: var(--primery-text-color);
     font-family: Roboto, sans-serif;
 }
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* logo */
@@ -128,11 +130,12 @@ color: #757575;
  }
 /* buttons */
  .button, .button-portfolio {
+     cursor: pointer;
       font-family: Roboto;
 font-style: bold;
 Font-size: 16 px;
 line-height: 1.8;
-align: center;
+text-align: center;
 Vertical-align: center;
 letter-spacing: 6%;
  }
@@ -210,7 +213,7 @@ color: #212121;
  /* Footer */
  .contacts {background-color: #2F303A;}
  .contacts-tittle, .contacts-tittle-link {
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-style: Regular;
 font-size: 14 px;
 line-height: 1.7;
@@ -218,6 +221,7 @@ line-height: 146%;
 align: left;
 letter-spacing: 3%;
 color: #FFFFFF;
+text-decoration: none;
 }
 .contacts-tittle-link {
     color: rgba(255, 255, 255, 0.6);
